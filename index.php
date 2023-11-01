@@ -1,3 +1,7 @@
+<?php  
+    include "data.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -118,8 +122,8 @@
                             <div class="container carousel-content">
                                 <h6 class="text-secondary h4 animated fadeInUp">Selamat Datang di</h6>
                                 <h1 class="text-white display-1 mb-4 animated fadeInRight">Nans Rent Car</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
-                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Pesan Sekarang!</button></a>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">Solusi Rental Mobil Terpercaya! Memenuhi kebutuhan perjalanan Anda.</p>
+                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a>
                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Daftar Harga</button></a>
                             </div>
                         </div>
@@ -187,9 +191,9 @@
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 class="text-primary">Tentang Kami</h5>
                         <h1 class="mb-4">Nans Rent Car</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
-                        <p class="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                        <p>Selamat datang di Nans Rent Car. Solusi Rental Mobil Terpercaya!</p>
+                        <p class="mb-4">Kami menyediakan armada mobil terbaru dengan layanan penyewaan yang mudah dan terjangkau. Kemudahan akses dan pilihan mobil berkualitas, itulah yang kami tawarkan kepada Anda. Kami menjembatani perjalanan Anda menuju kenyamanan dengan mobil berkualitas dan harga bersaing. Pilih dari berbagai jenis mobil, mulai dari ekonomis hingga mewah, untuk memenuhi kebutuhan perjalanan Anda. Tingkatkan pengalaman perjalanan Anda dengan layanan unggulan dari kami.</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">BOOKING!</a>
                     </div>
                 </div>
             </div>
@@ -205,84 +209,23 @@
                     <h1>Stock Kendaraan Kami</h1>
                 </div>
                 <div class="row g-5 services-inner">
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                    <img src="img/carprofile.jpg" style="width: 100%; margin-bottom: 1em;" alt="">
-                                    <h4 class="mb-3">Toyota Calya AT</h4>
-                                    <p class="mb-4">Rp. 250.000 / hari</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
+                    <?php for($i = 0; $i < count($carList); $i++) :?>
+                        <?php $img = $carList[$i][2];?>
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                            <div class="services-item bg-light">
+                                <div class="p-4 text-center services-content">
+                                    <div class="services-content-icon">
+                                        <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
+                                        <img src="img/<?= $img; ?>" style="width: 100%; max-height: 200px; margin-bottom: 1em;" alt="">
+                                        <h4 class="mb-3"><?= $carList[$i][0]; ?></h4>
+                                        <p class="mb-4">Rp. <?= $carList[$i][1]; ?> / hari</p>
+                                        <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                    <img src="img/carprofile.jpg" style="width: 100%; margin-bottom: 1em;" alt="">
-                                    <h4 class="mb-3">Toyota Calya AT</h4>
-                                    <p class="mb-4">Rp. 250.000 / hari</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                    <img src="img/carprofile.jpg" style="width: 100%; margin-bottom: 1em;" alt="">
-                                    <h4 class="mb-3">Toyota Calya AT</h4>
-                                    <p class="mb-4">Rp. 250.000 / hari</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                    <img src="img/carprofile.jpg" style="width: 100%; margin-bottom: 1em;" alt="">
-                                    <h4 class="mb-3">Toyota Calya AT</h4>
-                                    <p class="mb-4">Rp. 250.000 / hari</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                    <img src="img/carprofile.jpg" style="width: 100%; margin-bottom: 1em;" alt="">
-                                    <h4 class="mb-3">Toyota Calya AT</h4>
-                                    <p class="mb-4">Rp. 250.000 / hari</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                    <img src="img/carprofile.jpg" style="width: 100%; margin-bottom: 1em;" alt="">
-                                    <h4 class="mb-3">Toyota Calya AT</h4>
-                                    <p class="mb-4">Rp. 250.000 / hari</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endfor; ?>
+                    
                 </div>
             </div>
         </div>
@@ -550,11 +493,10 @@
                         </div>
                     </div>
                     <div class="row g-5">
-                        <div class="col-lg-12 wow fadeIn" data-wow-delay=".3s">
+                        <!-- <div class="col-lg-12 wow fadeIn" data-wow-delay=".3s">
                             <div class="p-5 h-100 rounded contact-map">
                                 <div class="row">
                                     <div class="col-lg-5">
-                                        <!-- <iframe class="rounded w-100 h-100" src="<div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=manado+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe></div>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                                         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=384&amp;hl=en&amp;q=%20Manado+(Alwii%20home)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
                                     </div>
                                     <div class="col-lg">
@@ -563,7 +505,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
                             <div class="p-5 rounded contact-form">
                                 <div class="mb-4">
@@ -677,3 +619,4 @@
 "Staf kami yang berpengalaman akan membantu Anda memilih mobil yang sesuai dengan kebutuhan dan anggaran Anda."
 "Kualitas, Keandalan, dan Kenyamanan - Itulah yang kami tawarkan dalam setiap perjalanan Anda."
 "Tingkatkan pengalaman perjalanan Anda dengan layanan unggulan dari [Nama Perusahaan]." -->
+
