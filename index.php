@@ -18,7 +18,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
 
         <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
@@ -45,14 +46,14 @@
                 <div class="d-flex justify-content-between topbar">
                     <div class="top-info">
                         <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Manado, Sulawesi Utara</small>
-                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>Email@Example.com</small>
+                        <!-- <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>Email@Example.com</small> -->
                     </div>
                     <!-- <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div> -->
                     <div class="top-link">
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        <!-- <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a> -->
+                        <a href="https://www.tiktok.com/@nansrentalmanado?_t=8h2ycfxuWTo&_r=1" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fa-brands fa-tiktok text-primary"></i></a>
+                        <a href="https://instagram.com/nansrentcarmanado?igshid=OGQ5ZDc2ODk2ZA==" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="https://wa.me/6281342480731" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fa-brands fa-whatsapp text-primary"></i></a>
                     </div>
                 </div>
             </div>
@@ -71,10 +72,10 @@
                     </button>
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link active text-secondary">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="project.html" class="nav-item nav-link">Pricelist</a>
+                            <a href="" class="nav-item nav-link active text-secondary">Home</a>
+                            <a href="#about" class="nav-item nav-link">About</a>
+                            <a href="#pricelist" class="nav-item nav-link">Pricelist</a>
+                            <a href="#services" class="nav-item nav-link">Services</a>
                             <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded">
@@ -89,15 +90,15 @@
                     <div class="d-none d-xl-flex flex-shirink-0">
                         <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
                             <a href="" class="position-relative animated tada infinite">
-                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <i class="fa-solid fa-phone text-white fa-2x"></i>
                                 <div class="position-absolute" style="top: -7px; left: 20px;">
                                     <span><i class="fa fa-comment-dots text-secondary"></i></span>
                                 </div>
                             </a>
                         </div>
                         <div class="d-flex flex-column pe-4">
-                            <span class="text-white-50">Contact Us</span>
-                            <span class="text-secondary">Call: + 0123 456 7890</span>
+                            <span class="text-white-50">Hubungi Kami</span>
+                            <span class="text-secondary">+62 822 2605 0541</span>
                         </div>
                         <!-- <div class="d-flex align-items-center justify-content-center ms-4 ">
                             <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
@@ -123,8 +124,8 @@
                                 <h6 class="text-secondary h4 animated fadeInUp">Selamat Datang di</h6>
                                 <h1 class="text-white display-1 mb-4 animated fadeInRight">Nans Rent Car</h1>
                                 <p class="mb-4 text-white fs-5 animated fadeInDown">Solusi Rental Mobil Terpercaya! Memenuhi kebutuhan perjalanan Anda.</p>
-                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a>
-                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Daftar Harga</button></a>
+                                <a href="https://wa.me/6282226050541?text=Halo%20Nans%20Rent%20Car,%20saya%20mau%20sewa%20mobil" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a>
+                                <a href="#pricelist" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Daftar Harga</button></a>
                             </div>
                         </div>
                     </div>
@@ -177,6 +178,7 @@
 
 
         <!-- About Start -->
+        <section id="about">
         <div class="container-fluid py-5 my-5">
             <div class="container pt-5">
                 <div class="row g-5">
@@ -193,15 +195,18 @@
                         <h1 class="mb-4">Nans Rent Car</h1>
                         <p>Selamat datang di Nans Rent Car. Solusi Rental Mobil Terpercaya!</p>
                         <p class="mb-4">Kami menyediakan armada mobil terbaru dengan layanan penyewaan yang mudah dan terjangkau. Kemudahan akses dan pilihan mobil berkualitas, itulah yang kami tawarkan kepada Anda. Kami menjembatani perjalanan Anda menuju kenyamanan dengan mobil berkualitas dan harga bersaing. Pilih dari berbagai jenis mobil, mulai dari ekonomis hingga mewah, untuk memenuhi kebutuhan perjalanan Anda. Tingkatkan pengalaman perjalanan Anda dengan layanan unggulan dari kami.</p>
-                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">BOOKING!</a>
+                        <!-- <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">BOOKING!</a> -->
+                        <a href="" class="btn-yellow px-5 py-3 text-white">Pesan Sekarang</a>
                     </div>
                 </div>
             </div>
         </div>
+        </section>
         <!-- About End -->
 
 
         <!-- Services Start -->
+        <section id="pricelist">
         <div class="container-fluid services py-5 mb-5">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
@@ -210,16 +215,20 @@
                 </div>
                 <div class="row g-5 services-inner">
                     <?php for($i = 0; $i < count($carList); $i++) :?>
-                        <?php $img = $carList[$i][2];?>
+                        <?php $img = $carList[$i][3];?>
                         <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                             <div class="services-item bg-light">
                                 <div class="p-4 text-center services-content">
-                                    <div class="services-content-icon">
+                                    <div class="services-content-icon text-center">
                                         <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
                                         <img src="img/<?= $img; ?>" style="width: 100%; max-height: 200px; margin-bottom: 1em;" alt="">
                                         <h4 class="mb-3"><?= $carList[$i][0]; ?></h4>
-                                        <p class="mb-4">Rp. <?= $carList[$i][1]; ?> / hari</p>
-                                        <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a>
+                                        <p class="mb-2"><b>Rp. <?= $carList[$i][1]; ?> / hari</b></p>
+                                        <p class="mb-1"><b>Rp. <?= $carList[$i][2]; ?> / hari</b></p>
+                                        <p class="mb-3">(All in include driver)</p>
+                                        <!-- <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a> -->
+                                        <!-- <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a> -->
+                                        <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-5 py-2 text-white">Booking</a>
                                     </div>
                                 </div>
                             </div>
@@ -229,6 +238,7 @@
                 </div>
             </div>
         </div>
+        </section>
         <!-- Services End -->
 
 
@@ -322,7 +332,8 @@
             </div>
         </div> -->
         <!-- Project End -->
-
+        
+        <section id="services">
         <div class="container-fluid services py-5 mb-5">
             <div class="container">
                 <div class="row g-5 services-inner justify-content-center">
@@ -353,6 +364,8 @@
                 </div>
             </div>
         </div>
+        </section>
+        
 
         <!-- Testimonial Start -->
         <div class="container-fluid testimonial py-5 mb-5">
@@ -362,14 +375,15 @@
                     <h1>Ucapan para Klien</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                    <?php for($i=0; $i < count($testimoni); $i++) :?>
                     <div class="testimonial-item border p-4">
                         <div class="d-flex align-items-center">
                             <div class="">
-                                <img src="img/testimonial-1.jpg" alt="">
+                                <img src="img/icon-profile.png" alt="" style="height: 100px; width:100px;">
                             </div>
                             <div class="ms-4">
-                                <h4 class="text-secondary">Client Name</h4>
-                                <p class="m-0 pb-3">Kota Asal</p>
+                                <h4 class="text-secondary"><?= $testimoni[$i][0]; ?></h4>
+                                <p class="m-0 pb-3"><?= $testimoni[$i][1]; ?></p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star me-1 text-primary"></i>
                                     <i class="fas fa-star me-1 text-primary"></i>
@@ -380,72 +394,10 @@
                             </div>
                         </div>
                         <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                            <p class="mb-0"><?= $testimoni[$i][2]; ?></p>
                         </div>
                     </div>
-                    <div class="testimonial-item border p-4">
-                        <div class=" d-flex align-items-center">
-                            <div class="">
-                                <img src="img/testimonial-2.jpg" alt="">
-                            </div>
-                            <div class="ms-4">
-                                <h4 class="text-secondary">Client Name</h4>
-                                <p class="m-0 pb-3">Profession</p>
-                                <div class="d-flex pe-5">
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item border p-4">
-                        <div class=" d-flex align-items-center">
-                            <div class="">
-                                <img src="img/testimonial-3.jpg" alt="">
-                            </div>
-                            <div class="ms-4">
-                                <h4 class="text-secondary">Client Name</h4>
-                                <p class="m-0 pb-3">Profession</p>
-                                <div class="d-flex pe-5">
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item border p-4">
-                        <div class=" d-flex align-items-center">
-                            <div class="">
-                                <img src="img/testimonial-4.jpg" alt="">
-                            </div>
-                            <div class="ms-4">
-                                <h4 class="text-secondary">Client Name</h4>
-                                <p class="m-0 pb-3">Profession</p>
-                                <div class="d-flex pe-5">
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                    <i class="fas fa-star me-1 text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                        </div>
-                    </div>
+                    <?php endfor; ?>
                 </div>
             </div>
         </div>
@@ -454,7 +406,7 @@
 
 
         <!-- Contact Start -->
-        <div class="container-fluid py-5 mb-5">
+        <!-- <div class="container-fluid py-5 mb-5">
             <div class="container">
                 <div class="contact-detail position-relative p-5">
                     <div class="row g-5 mb-5 justify-content-center">
@@ -525,7 +477,7 @@
                     </div>
                 </div>
             </div> 
-        </div>
+        </div> -->
         <!-- Contact End -->
 
 
@@ -537,12 +489,12 @@
                         <a href="index.html">
                             <h1 class="text-white fw-bold d-block">Nans<span class="text-secondary">Rent</span> </h1>
                         </a>
-                        <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
+                        <p class="mt-4 text-light">Rental mobil terpercaya dengan berbagai pilihan mobil tersedia. Kami hadir untuk memenuhi kebutuhan Anda dalam bepergian. Kepuasan Anda adalah prioritas kami.</p>
                         <div class="d-flex hightech-link">
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                            <!-- <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a> -->
+                            <a href="https://www.tiktok.com/@nansrentalmanado?_t=8h2ycfxuWTo&_r=1" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fa-brands fa-tiktok text-primary"></i></a>
+                            <a href="https://instagram.com/nansrentcarmanado?igshid=OGQ5ZDc2ODk2ZA==" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="https://wa.me/6281342480731" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fa-brands fa-whatsapp text-primary"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -569,8 +521,8 @@
                         <a href="#" class="h3 text-secondary">Kontak Kami</a>
                         <div class="text-white mt-4 d-flex flex-column contact-link">
                             <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Manado, Sulawesi Utara</a>
-                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +123 456 7890</a>
-                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> info@exmple.com</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i>+62 822 2605 0541</a>
+                            <!-- <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> info@exmple.com</a> -->
                         </div>
                     </div>
                 </div>
@@ -603,6 +555,14 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
     </body>
 
 </html>
