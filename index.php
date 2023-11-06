@@ -196,7 +196,7 @@
                         <p>Selamat datang di Nans Rent Car. Solusi Rental Mobil Terpercaya!</p>
                         <p class="mb-4">Kami menyediakan armada mobil terbaru dengan layanan penyewaan yang mudah dan terjangkau. Kemudahan akses dan pilihan mobil berkualitas, itulah yang kami tawarkan kepada Anda. Kami menjembatani perjalanan Anda menuju kenyamanan dengan mobil berkualitas dan harga bersaing. Pilih dari berbagai jenis mobil, mulai dari ekonomis hingga mewah, untuk memenuhi kebutuhan perjalanan Anda. Tingkatkan pengalaman perjalanan Anda dengan layanan unggulan dari kami.</p>
                         <!-- <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">BOOKING!</a> -->
-                        <a href="" class="btn-yellow px-5 py-3 text-white">Pesan Sekarang</a>
+                        <a href="https://wa.me/6282226050541?text=Halo%20Nans%20Rent%20Car,%20saya%20mau%20sewa%20mobil" class="btn-yellow mt-5 px-5 py-3 text-white">Pesan Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
                                         <p class="mb-3">(All in include driver)</p>
                                         <!-- <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a> -->
                                         <!-- <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a> -->
-                                        <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-5 py-2 text-white">Booking</a>
+                                        <a href="https://wa.me/6282226050541?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-5 py-2 text-white">Booking</a>
                                     </div>
                                 </div>
                             </div>
