@@ -726,6 +726,10 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   }
+
+  .text-red {
+    color: red;
+  }
   
   /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {

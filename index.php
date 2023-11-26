@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
     <head>
         <meta charset="utf-8">
@@ -65,7 +65,7 @@
             <div class="container">
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="text-white fw-bold d-block">Nans<span class="text-secondary">Rent</span> </h1>
+                        <h1 translate="no" class="text-white fw-bold d-block">Nans<span class="text-secondary">RentCar</span> </h1>
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
@@ -184,15 +184,15 @@
                 <div class="row g-5">
                     <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
                         <div class="h-100 position-relative">
-                            <img src="img/car1.jpeg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <img src="img/pagoda.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
                             <div class="position-absolute w-75" style="top: 25%; left: 25%;">
-                                <img src="img/car2.jpg" class="img-fluid w-100 rounded" alt="">
+                                <img src="img/bunaken.jpg" class="img-fluid w-100 rounded" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 class="text-primary">Tentang Kami</h5>
-                        <h1 class="mb-4">Nans Rent Car</h1>
+                        <h1 translate="no" class="mb-4">Nans Rent Car</h1>
                         <p>Selamat datang di Nans Rent Car. Solusi Rental Mobil Terpercaya!</p>
                         <p class="mb-4">Kami menyediakan armada mobil terbaru dengan layanan penyewaan yang mudah dan terjangkau. Kemudahan akses dan pilihan mobil berkualitas, itulah yang kami tawarkan kepada Anda. Kami menjembatani perjalanan Anda menuju kenyamanan dengan mobil berkualitas dan harga bersaing. Pilih dari berbagai jenis mobil, mulai dari ekonomis hingga mewah, untuk memenuhi kebutuhan perjalanan Anda. Tingkatkan pengalaman perjalanan Anda dengan layanan unggulan dari kami.</p>
                         <!-- <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">BOOKING!</a> -->
@@ -216,16 +216,15 @@
                 <div class="row g-5 services-inner">
                     <?php for($i = 0; $i < count($carList); $i++) :?>
                         <?php $img = $carList[$i][3];?>
-                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
                             <div class="services-item bg-light">
                                 <div class="p-4 text-center services-content">
                                     <div class="services-content-icon text-center">
                                         <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
                                         <img src="img/<?= $img; ?>" style="width: 100%; max-height: 200px; margin-bottom: 1em;" alt="">
-                                        <h4 class="mb-3"><?= $carList[$i][0]; ?></h4>
-                                        <p class="mb-2"><b>Rp. <?= $carList[$i][1]; ?> / hari</b></p>
-                                        <p class="mb-1"><b>Rp. <?= $carList[$i][2]; ?> / hari</b></p>
-                                        <p class="mb-3">(All in include driver)</p>
+                                        <h4 translate="no" class="mb-3"><?= $carList[$i][0]; ?></h4>
+                                        <p class="text-red mb-2"><b>Rp. <?= $carList[$i][1]; ?> / hari</b> (lepas kunci)</p>
+                                        <p class="text-red mb-4"><b>Rp. <?= $carList[$i][2]; ?> / hari</b> (include driver + BBM)</p>
                                         <!-- <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a> -->
                                         <!-- <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a> -->
                                         <a href="https://wa.me/6282226050541?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-5 py-2 text-white">Booking</a>
@@ -333,7 +332,7 @@
         </div> -->
         <!-- Project End -->
         
-        <section id="services">
+        <!-- <section id="services">
         <div class="container-fluid services py-5 mb-5">
             <div class="container">
                 <div class="row g-5 services-inner justify-content-center">
@@ -341,7 +340,6 @@
                         <div class="services-item bg-light">
                             <div class="p-4 text-center services-content">
                                 <div class="services-content-icon">
-                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
                                     <h1>Syarat dan Ketentuan</h1>
                                     <br>
                                     <div class="row justify-content-center">
@@ -364,7 +362,7 @@
                 </div>
             </div>
         </div>
-        </section>
+        </section> -->
         
 
         <!-- Testimonial Start -->
