@@ -45,15 +45,15 @@
             <div class="container">
                 <div class="d-flex justify-content-between topbar">
                     <div class="top-info">
-                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Manado, Sulawesi Utara</small>
+                        <small class="me-3 text-white-50"><a href="https://www.google.com/maps/place/1%C2%B030'13.3%22N+124%C2%B053'30.1%22E/@1.5037,124.8891251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d1.5037!4d124.8917?entry=ttu" target="_blank"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Manado, Sulawesi Utara</small>
                         <!-- <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>Email@Example.com</small> -->
                     </div>
                     <!-- <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div> -->
                     <div class="top-link">
                         <!-- <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a> -->
-                        <a href="https://www.tiktok.com/@nansrentalmanado?_t=8h2ycfxuWTo&_r=1" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fa-brands fa-tiktok text-primary"></i></a>
-                        <a href="https://instagram.com/nansrentcarmanado?igshid=OGQ5ZDc2ODk2ZA==" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
-                        <a href="https://wa.me/6281342480731" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fa-brands fa-whatsapp text-primary"></i></a>
+                        <a href="https://www.tiktok.com/@nansrentalmanado?_t=8h2ycfxuWTo&_r=1" class="bg-light nav-fill btn btn-sm-square rounded-circle" target="_blank"><i class="fa-brands fa-tiktok text-primary"></i></a>
+                        <a href="https://instagram.com/nansrentcarmanado?igshid=OGQ5ZDc2ODk2ZA==" class="bg-light nav-fill btn btn-sm-square rounded-circle" target="_blank"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="https://wa.me/6281342480731" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0" target="_blank"><i class="fa-brands fa-whatsapp text-primary"></i></a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
         <div class="container-fluid bg-primary">
             <div class="container">
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
-                    <a href="index.html" class="navbar-brand">
+                    <a href="." class="navbar-brand">
                         <h1 translate="no" class="text-white fw-bold d-block">Nans<span class="text-secondary">RentCar</span> </h1>
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -75,7 +75,7 @@
                             <a href="" class="nav-item nav-link active text-secondary">Home</a>
                             <a href="#about" class="nav-item nav-link">About</a>
                             <a href="#pricelist" class="nav-item nav-link">Pricelist</a>
-                            <a href="#services" class="nav-item nav-link">Services</a>
+                            <!-- <a href="#services" class="nav-item nav-link">Services</a> -->
                             <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu rounded">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="d-none d-xl-flex flex-shirink-0">
                         <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
-                            <a href="" class="position-relative animated tada infinite">
+                            <a href="https://wa.me/6282226050541" class="position-relative animated tada infinite" target="_blank">
                                 <i class="fa-solid fa-phone text-white fa-2x"></i>
                                 <div class="position-absolute" style="top: -7px; left: 20px;">
                                     <span><i class="fa fa-comment-dots text-secondary"></i></span>
@@ -196,7 +196,7 @@
                         <p>Selamat datang di Nans Rent Car. Solusi Rental Mobil Terpercaya!</p>
                         <p class="mb-4">Kami menyediakan armada mobil terbaru dengan layanan penyewaan yang mudah dan terjangkau. Kemudahan akses dan pilihan mobil berkualitas, itulah yang kami tawarkan kepada Anda. Kami menjembatani perjalanan Anda menuju kenyamanan dengan mobil berkualitas dan harga bersaing. Pilih dari berbagai jenis mobil, mulai dari ekonomis hingga mewah, untuk memenuhi kebutuhan perjalanan Anda. Tingkatkan pengalaman perjalanan Anda dengan layanan unggulan dari kami.</p>
                         <!-- <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">BOOKING!</a> -->
-                        <a href="https://wa.me/6282226050541?text=Halo%20Nans%20Rent%20Car,%20saya%20mau%20sewa%20mobil" class="btn-yellow mt-5 px-5 py-3 text-white">Pesan Sekarang</a>
+                        <a href="https://wa.me/6282226050541?text=Halo%20Nans%20Rent%20Car,%20saya%20mau%20sewa%20mobil" target="_blank" class="btn-yellow mt-5 px-5 py-3 text-white">Pesan Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -227,7 +227,7 @@
                                         <p class="text-red mb-4"><b>Rp. <?= $carList[$i][2]; ?> / hari</b> (include driver + BBM)</p>
                                         <!-- <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a> -->
                                         <!-- <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a> -->
-                                        <a href="https://wa.me/6282226050541?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-5 py-2 text-white">Booking</a>
+                                        <a href="https://wa.me/6282226050541?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-5 py-2 text-white" target="_blank">Booking</a>
                                     </div>
                                 </div>
                             </div>
@@ -484,15 +484,15 @@
             <div class="container pt-5 pb-4">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <a href="index.html">
+                        <a href=".">
                             <h1 class="text-white fw-bold d-block">Nans<span class="text-secondary">Rent</span> </h1>
                         </a>
                         <p class="mt-4 text-light">Rental mobil terpercaya dengan berbagai pilihan mobil tersedia. Kami hadir untuk memenuhi kebutuhan Anda dalam bepergian. Kepuasan Anda adalah prioritas kami.</p>
                         <div class="d-flex hightech-link">
                             <!-- <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a> -->
-                            <a href="https://www.tiktok.com/@nansrentalmanado?_t=8h2ycfxuWTo&_r=1" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fa-brands fa-tiktok text-primary"></i></a>
-                            <a href="https://instagram.com/nansrentcarmanado?igshid=OGQ5ZDc2ODk2ZA==" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
-                            <a href="https://wa.me/6281342480731" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fa-brands fa-whatsapp text-primary"></i></a>
+                            <a href="https://www.tiktok.com/@nansrentalmanado?_t=8h2ycfxuWTo&_r=1" class="btn-light nav-fill btn btn-square rounded-circle me-2" target="_blank"><i class="fa-brands fa-tiktok text-primary"></i></a>
+                            <a href="https://instagram.com/nansrentcarmanado?igshid=OGQ5ZDc2ODk2ZA==" class="btn-light nav-fill btn btn-square rounded-circle me-2" target="_blank"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="https://wa.me/6281342480731" class="btn-light nav-fill btn btn-square rounded-circle me-0" target="_blank"><i class="fa-brands fa-whatsapp text-primary"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -518,8 +518,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="#" class="h3 text-secondary">Kontak Kami</a>
                         <div class="text-white mt-4 d-flex flex-column contact-link">
-                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Manado, Sulawesi Utara</a>
-                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i>+62 822 2605 0541</a>
+                            <a href="https://www.google.com/maps/place/1%C2%B030'13.3%22N+124%C2%B053'30.1%22E/@1.5037,124.8891251,17z/data=!3m1!4b1!4m4!3m3!8m2!3d1.5037!4d124.8917?entry=ttu" class="pb-3 text-light border-bottom border-primary" target="_blank"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Manado, Sulawesi Utara</a>
+                            <a href="https://wa.me/6282226050541" class="py-3 text-light border-bottom border-primary" target="_blank"><i class="fas fa-phone-alt text-secondary me-2"></i>+62 822 2605 0541</a>
                             <!-- <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> info@exmple.com</a> -->
                         </div>
                     </div>
@@ -527,7 +527,7 @@
                 <hr class="text-light mt-5 mb-4">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start">
-                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>nansrentcar.com</a>, All right reserved.</span>
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>nansrentcar.com</a>, Created by <a href="https://linkedin.com/in/lutfi-ardiansyah-300798" style="color:white;" target="_blank"><b> Lutfi Ardiansyah,</b> </a> All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
