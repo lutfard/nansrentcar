@@ -213,15 +213,15 @@
                     <!-- <h5 class="text-primary">Our Services</h5> -->
                     <h1>Stock Kendaraan Kami</h1>
                 </div>
-                <div class="row g-5 services-inner">
+                <div class="row g-2 g-lg-3 services-inner">
                     <?php for($i = 0; $i < count($carList); $i++) :?>
                         <?php $img = $carList[$i][3];?>
-                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeIn" data-wow-delay=".2s">
                             <div class="services-item bg-light">
-                                <div class="p-4 text-center services-content">
+                                <div class="p-3 text-center services-content">
                                     <div class="services-content-icon text-center">
                                         <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                        <img src="img/<?= $img; ?>" style="width: 100%; max-height: 200px; margin-bottom: 1em;" alt="">
+                                        <img src="img/<?= $img; ?>" style="width:100%; max-width 300px; height:100%; min-height:99px; max-height: 200px; margin-bottom: 1em;" alt="">
                                         <h4 translate="no" class="mb-3"><?= $carList[$i][0]; ?></h4>
                                         <p class="text-red mb-2"><b>Rp. <?= $carList[$i][1]; ?> / hari</b> (lepas kunci)</p>
                                         <p class="text-red mb-4"><b>Rp. <?= $carList[$i][2]; ?> / hari</b> (include driver + BBM)</p>
