@@ -233,8 +233,24 @@
                             </div>
                         </div>
                     <?php endfor; ?>
-                    
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeIn" data-wow-delay=".2s">
+                            <div class="services-item bg-light">
+                                <div class="p-3 text-center services-content">
+                                    <div class="services-content-icon text-center">
+                                        <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
+                                        <img src="img/bus.jpg" style="width:100%; max-width 300px; height:100%; min-height:99px; max-height: 200px; margin-bottom: 1em;" alt="">
+                                        <h4 translate="no" class="mb-3">Bus Pariwisata</h4>
+                                        <p class="text-red mb-2"><b>Rp. 2.500.000 / 12 jam</b></p>
+                                        <p class="text-red mb-2">(dalam kota)</p><br><br>
+                                        <!-- <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a> -->
+                                        <!-- <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a> -->
+                                        <a href="https://wa.me/6282226050541?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20bus%20pariwisata" class="btn-yellow mt-5 px-4 py-2 text-white" target="_blank">Booking</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
+                        
             </div>
         </div>
         </section>
@@ -486,7 +502,7 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <a href=".">
-                            <h1 class="text-white fw-bold d-block">Nans<span class="text-secondary">Rent</span> </h1>
+                            <h1 class="text-white fw-bold d-block">Nans<span class="text-secondary">RentCar</span> </h1>
                         </a>
                         <p class="mt-4 text-light">Rental mobil terpercaya dengan berbagai pilihan mobil tersedia. Kami hadir untuk memenuhi kebutuhan Anda dalam bepergian. Kepuasan Anda adalah prioritas kami.</p>
                         <div class="d-flex hightech-link">

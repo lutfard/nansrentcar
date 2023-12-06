@@ -55,7 +55,7 @@
             "xpander.png"
         ],
         [
-            "Toyota Avanza Veloz",
+            "Avanza Veloz",
             "400.000",
             "700.000",
             "veloz.png"
@@ -79,25 +79,25 @@
             "terios.png"
         ],
         [
-            "Toyota Innova Reborn",
+            "Innova Reborn",
             "550.000",
             "800.000",
             "reborn.png"
         ],
         [
-            "Toyota Innova Venturer",
+            "Innova Venturer",
             "650.000",
             "900.000",
             "venturer.png"
         ],
         [
-            "Toyota Innova Zenix",
+            "Innova Zenix",
             "700.000",
             "1.000.000",
             "zenix.png"
         ],
         [
-            "Mitsubishi Pajero Sport",
+            "Pajero Sport",
             "1.200.000",
             "1.500.000",
             "pajero.png"
@@ -109,13 +109,13 @@
             "fortuner.png"
         ],
         [
-            "Hiace Commuter (All in)",
+            "Hiace Commuter",
             "1.500.000",
             "1.500.000",
             "commuter.png"
         ],
         [
-            "Hiace Premio (All in)",
+            "Hiace Premio",
             "2.000.000",
             "2.000.000",
             "premio.png"
@@ -126,6 +126,12 @@
             "3.500.000",
             "alphard.png"
         ]
+        // [
+        //     "Bus Pariwisata",
+        //     "3.500.000",
+        //     "3.500.000",
+        //     "alphard.png"
+        // ]
     );
 
     $testimoni = array(
