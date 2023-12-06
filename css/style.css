@@ -64,7 +64,7 @@
 
 
 .btn-yellow {
-    width: 5px;
+    width: 50px;
     height: 35px;
     border-radius: 50px;
     font-weight: bold;
@@ -316,6 +316,11 @@
 
     .services-content-icon h4{
         font-size: 14px !important;
+    }
+
+    .btn-yellow {
+        width: 50%;
+        height: 25px;
     }
 
 
@@ -738,7 +743,7 @@
   }
 
   .text-red {
-    color: red;
+    color: rgb(185, 57, 57);
   }
   
   /* Add animation (fade in the popup) */

@@ -227,7 +227,7 @@
                                         <p class="text-red mb-4"><b>Rp. <?= $carList[$i][2]; ?> / hari</b> (include driver + BBM)</p>
                                         <!-- <a href="https://wa.me/6282113537637?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Pesan Sekarang</a> -->
                                         <!-- <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 my-1 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Hubungi Kami</button></a> -->
-                                        <a href="https://wa.me/6282226050541?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-5 py-2 text-white" target="_blank">Booking</a>
+                                        <a href="https://wa.me/6282226050541?Text=Halo%20Nans%20Rent%20Car,%20saya%20ingin%20booking%20mobil%20 <?= $carList[$i][0]; ?>" class="btn-yellow mt-5 px-4 py-2 text-white" target="_blank">Booking</a>
                                     </div>
                                 </div>
                             </div>
@@ -404,10 +404,10 @@
 
 
         <!-- Contact Start -->
-        <!-- <div class="container-fluid py-5 mb-5">
+        <div class="container-fluid py-5 mb-5">
             <div class="container">
-                <div class="contact-detail position-relative p-5">
-                    <div class="row g-5 mb-5 justify-content-center">
+                <!-- <div class="contact-detail position-relative p-5"> -->
+                    <!-- <div class="row g-5 mb-5 justify-content-center">
                         <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
                             <div class="d-flex bg-light p-3 rounded">
                                 <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
@@ -441,21 +441,22 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row g-5">
-                        <!-- <div class="col-lg-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="col-lg-12 wow fadeIn" data-wow-delay=".3s">
                             <div class="p-5 h-100 rounded contact-map">
                                 <div class="row">
                                     <div class="col-lg-5">
-                                        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=384&amp;hl=en&amp;q=%20Manado+(Alwii%20home)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
+                                    <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=Kairagi%20Dua,%20Kec.%20Mapanget,%20Kota%20Manado,%20Sulawesi%20Utara&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width:100%; height: 200px;"></iframe><style>.mapouter{position:relative;height:200px;width:100%;background:#fff;} .maprouter a{color:#fff !important;position:absolute !important;top:0 !important;z-index:0 !important;}</style><a href="https://blooketjoin.org">blooketjoin</a><style>.gmap_canvas{overflow:hidden;height:200px;width:100%}.gmap_canvas iframe{position:relative;z-index:2}</style></div></div>
                                     </div>
                                     <div class="col-lg">
+                                        <br>
                                         <h2 style="color: #f0c75e;">Nans Rent Car</h2>
-                                        <h4 style="color: white;">Jl. apa aja boleh no.10, manado, Manado, Sulawesi Utara 10293</h4>
+                                        <h4 style="color: white;">Kairagi Dua, Kec. Mapanget, Kota Manado, Sulawesi Utara</h4>
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <!-- <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
                             <div class="p-5 rounded contact-form">
                                 <div class="mb-4">
@@ -473,9 +474,9 @@
                             </div>
                         </div> -->
                     </div>
-                </div>
+                <!-- </div> -->
             </div> 
-        </div> -->
+        </div>
         <!-- Contact End -->
 
 
